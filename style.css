@@ -1,0 +1,153 @@
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    height: 540px;
+    position: relative;
+}
+
+.jumbotron .container{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: viga , sans-serif;
+}
+
+.jumbotron img{
+    width: 55%;
+}
+
+.info-panel{
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
+    border-radius: 12px;
+    margin-top: -170px;
+    padding: 30px;
+    font-size: small;
+}
+
+.info-panel table{
+    margin: auto;
+}
+
+.about img{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.about{
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.pendidikan h3{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: larger; 
+}
+
+.pendidikan p{
+    font-size: small;
+}
+
+.pelatihan img{
+    width: 100%;
+    margin: 50px 0 20px;
+}
+
+.testimonial .caption p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+footer p{
+    color: gray;
+    font-size: 100%;
+}
+
+
+
+@media screen and (width:768px){
+        .about img{
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 760px){
+    .navbar-brand, .nav-link{
+        color: black !important;
+        font-weight: bold;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 2px solid rgb(44, 44, 194);
+        width: 50%;
+        margin: auto;
+        margin-bottom: -5px;
+    }
+    .jumbotron{
+        margin-top: -56px;
+        height: 640px;
+        color: wheat;
+        text-shadow: 2px 2px 2px black;
+    }
+    .jumbotron img{
+        width: 35%;
+    }
+    .btn{
+        text-transform: uppercase;
+    }
+
+    .info-panel{
+        margin-top: -100px;
+        padding: 30px;
+        font-size: larger;
+    }
+    .info-panel table td{
+        padding: 2px 30px;
+    }
+    .about{ font-size: large;}
+    h1{
+        font-size: 40px;
+    }
+
+    .pendidikan h3{
+        font-size: 27px; 
+    }
+
+    .pendidikan p{
+        font-size: larger;
+    }
+
+    .pelatihan ul{
+        margin-top: 12%;
+    }
+    .testimonial .caption p{
+        font-size: 32px;
+    }
+
+    
+}
+
+@media screen and (min-width:1440px){
+    .jumbotron{
+        height: 740px;
+    }
+}
